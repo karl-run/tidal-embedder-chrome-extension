@@ -28,8 +28,6 @@ if (window.location.pathname !== '/') {
     };
 
     chrome.runtime.sendMessage({ type: 'notification', options: searchOptions }, handleSearchResult);
-  } else {
-    newNode.innerHTML = `<div>No album found on page</div>`;
   }
 }
 
