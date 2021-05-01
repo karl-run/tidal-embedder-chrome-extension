@@ -95,10 +95,7 @@ function sortByFirstWordInAlbum(album) {
 
   const [firstWord] = album.split(' ');
 
-  console.log('Sorting', album, firstWord);
-
   return (a, b) => {
-    console.log(a, b);
     if (a.title.includes(firstWord)) return -1;
     else if (b.title.includes(firstWord)) return 1;
     return 0;
