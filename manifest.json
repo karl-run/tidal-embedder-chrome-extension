@@ -1,0 +1,21 @@
+{
+  "name": "Tidal Embedder",
+  "description": "Embeds Tidal players on various online stores",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [],
+  "background": {
+    "service_worker": "tidal-embedder.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bigdipper.no/*"],
+      "js": ["embedder.js"]
+    }
+  ],
+  "icons": {
+    "16": "/images/logo16.png",
+    "48": "/images/logo48.png",
+    "128": "/images/logo128.png"
+  }
+}
