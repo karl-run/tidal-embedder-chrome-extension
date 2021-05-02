@@ -1,7 +1,7 @@
 {
-  "name": "Tidal Embedder",
-  "description": "Embeds Tidal players on various online stores",
-  "version": "1.0",
+  "name": "Tidal Player for BigDipper.no",
+  "description": "Adds a small Tidal preview player on Norwegian record store BigDipper.no",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": [],
   "background": {
